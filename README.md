@@ -1,4 +1,4 @@
-# SPIKE Prime Musical Instruments (also using MIDI)
+# SPIKE Prime Musical Instruments
 ### Summer 2022 
 
 There are three main ways that we explored making music with the SPIKE Prime. 
