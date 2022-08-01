@@ -1,8 +1,10 @@
 # SPIKE Prime Musical Instruments (also using MIDI)
 ### Summer 2022 
 
-Musical intruments with SPIKE Prime: 
+There are three main ways that we explored making music with the SPIKE Prime. 
 * Using Hub speakers
-* Connected to Garage Band with MIDI
+* Using MIDI
+** Using MIDI BLE
+** Using MIDI USB
 
-Check out the appropriate folders for access to code and guides for making musical instruments with the LEGO SPIKE Prime Kit.
+Check out the appropriate folders for access to code and guides! 
