@@ -1,5 +1,5 @@
 # SPIKE Prime Musical Instruments
-### Summer 2022 
+### By:
 
 There are three main ways that we explored making music with the SPIKE Prime. 
 * Using Hub speakers
