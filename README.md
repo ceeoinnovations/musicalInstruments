@@ -1,6 +1,6 @@
 # SPIKE Prime Musical Instruments (also using MIDI)
-## By: (INSERT INTERNS HERE)
-## Summer 2022 
+### By: 
+### Summer 2022 
 
 Musical intruments with SPIKE Prime: 
 * Using Hub speakers
