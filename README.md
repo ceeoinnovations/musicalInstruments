@@ -1,3 +1,2 @@
-# musicalInstruments
+# SPIKE Prime Musical Instruments 
 
-* Hello
