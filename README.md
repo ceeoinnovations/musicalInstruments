@@ -1,5 +1,4 @@
 # SPIKE Prime Musical Instruments (also using MIDI)
-### By: 
 ### Summer 2022 
 
 Musical intruments with SPIKE Prime: 
