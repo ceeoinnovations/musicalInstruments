@@ -22,7 +22,7 @@ FOR MAC:
     3. Choose your instrument sound from the sound library.
     4. Make sure your volume is on (so you can hear the program play later on).
     
-    [](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/garageband.gif)
+    ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/garageband.gif)
 
 FOR IPHONE / IPAD:
 
