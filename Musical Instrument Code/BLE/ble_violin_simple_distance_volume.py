@@ -86,7 +86,7 @@ def calculate_rgbi_min_max(current_list_all_rgbi):
             # Finds actual rgbi min / max
             if current_value < current_min:
                 min_rgbi[j] = current_value
-            if current_value > current_m:
+            if current_value > current_max:
                 max_rgbi[j] = current_value
     
     return min_rgbi, max_rgbi
@@ -124,7 +124,7 @@ def wait_until_button_is_pressed_and_released():
     while not is_right_pressed:
         time.sleep_ms(1)
         
-        right_pressed_or_not = button.button_isPressed(button.BUTTON_RIGHT)[
+        right_pressed_or_not = button.button_isPressed(button.BUTTON_RIGHT)[0]
         
         if right_pressed_or_not == 1:
             is_right_pressed = True
@@ -141,8 +141,6 @@ def wait_until_button_is_pressed_and_released():
 # Calibrates color sensor to find RGBI values associated with each LEGO color
 def calibrate_color(block_color, string_index):
     
-    # Initialize RGBI list for final color for this block
-    rgbi_list = [0, 0, 0, 0]
     # Initialize list of rgbi lists for training
     all_rgbi = []
     
@@ -162,7 +160,6 @@ def calibrate_color(block_color, string_index):
     blink_calibrating('start')
     
     current_min_rgbi = 0
-    current_avg_rgbi = 0
     current_max_rgbi = 0
     
     # Get color sensor values
