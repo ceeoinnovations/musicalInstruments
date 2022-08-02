@@ -10,7 +10,7 @@
 
 ## BLE MIDI
 
-1. [SPIKE BLE docs github](https://github.com/ceeoinnovations/SPIKE_BLE)
+1. [SPIKE BLE Docs GitHub](https://github.com/ceeoinnovations/SPIKE_BLE)
 2. [MIDI BLE Tutorial (both Mac and Windows)](https://learn.sparkfun.com/tutorials/midi-ble-tutorial/all)
 3. ["What is Wed MIDI & BLE MIDI?"](https://learn.adafruit.com/web-ble-midi/overview)
 4. [Adafruit CircuitPython BLE MIDI GitHub](https://github.com/adafruit/Adafruit_CircuitPython_BLE_MIDI/blob/main/adafruit_ble_midi.py)
