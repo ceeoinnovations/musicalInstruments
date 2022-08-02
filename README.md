@@ -1,5 +1,8 @@
 # SPIKE Prime Musical Instruments
-### By:
+### By Rose Kitz, Anna Quiros, Julia Zelevinsky, and Samson Bienstock
+*With help from: Rachel Hsin, Soham Gaggenapally, and Gabriel Sessions*
+
+<hr>
 
 There are three main ways that we explored making music with the SPIKE Prime. 
 * Using Hub speakers
