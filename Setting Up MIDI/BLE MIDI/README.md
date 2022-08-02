@@ -53,7 +53,7 @@ _(you can follow the same instructions for both iPhone and iPad!)_
 
 #### STEP FOUR: CONNECT SPIKE TO YOUR MIDI DEVICE
 
-For MAC:
+FOR MAC:
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Find and open the Audio MIDI App (it’s built in on Mac laptops). 
@@ -66,7 +66,7 @@ For MAC:
 4. Back in PyView, you should see in the console something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
 5. You should see a pop-up in the upper-right corner of your screen saying “Changed number of MIDI inputs, 1 input is available” (this means that GarageBand is now connected to the SPIKE). 
 
-**For iPhone/iPad:**
+**FOR IPHONE/IPAD:**
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Go to GarageBand:  
