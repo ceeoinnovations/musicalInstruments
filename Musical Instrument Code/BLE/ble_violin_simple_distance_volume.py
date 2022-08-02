@@ -50,8 +50,8 @@ all_colors_min_max_rgbi = []
 all_colors_all_rgbi = []
 
 # Minimum and maximum distances of violin finger board from the distance sensor
-min_distance = 42 # mm
-max_distance = 96 # mm
+min_distance = 42 # [mm]
+max_distance = 96 # [mm]
 
 
 # Function to package up MIDI information to send over BLE
