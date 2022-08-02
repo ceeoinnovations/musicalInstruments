@@ -5,6 +5,7 @@
 4. ["MIDI NOTE NUMBERS AND CENTER FREQUENCIES"](https://www.inspiredacoustics.com/en/)
 5. [MIDI Commands](https://computermusicresource.com/MIDI.Commands.html)
 6. [MIDI System Messages](https://cmtext.indiana.edu/MIDI/chapter3_system_messages.php#:~:text=MIDI%20Data%20Format%3A%20System%20Messages,all%20devices%20in%20a%20system.&text=There%20are%20only%20a%20few%20system%20common%20messages%20.)
+7. ["Essentials of the MIDI protocol"](https://ccrma.stanford.edu/~craig/articles/linuxmidi/misc/essenmidi.html)
 
 
 ## BLE MIDI
@@ -19,13 +20,15 @@
 2. ["Set up MIDI devices using Audio MIDI Setup on Mac"](https://support.apple.com/guide/audio-midi-setup/set-up-midi-devices-ams875bae1e0/mac)
 ### Windows (very much still in progress)
 1. Downloads: [loopMIDI | Tobias Erichsen](https://www.google.com/url?q=https://www.tobias-erichsen.de/software/loopmidi.html&sa=D&source=docs&ust=1659388765548301&usg=AOvVaw0eB6B_9wLXj1-jf4a0WoNH) and [MIDIberry](https://apps.microsoft.com/store/detail/midiberry/9N39720H2M05?hl=en-us&gl=US)
-2. [MIDI Setup Window](https://docs.cycling74.com/max5/vignettes/core/midi_setup_window.html) 
-3. [MIDI Setup and Usage | Wireless BLE MIDI Robot Xylophone | Adafruit Learning System](https://learn.adafruit.com/wireless-ble-midi-robot-xylophone/midi-setup-and-usage) 
-4. [Forum: MIDI device won't show up in music software](https://xkeyair.com/forum-index/users/martinhines/replies/) 
-5. [Why do Bluetooth LE / BLE Midi Controllers not work in Windows 11 - Microsoft Community](https://answers.microsoft.com/en-us/windows/forum/all/why-do-bluetooth-le-ble-midi-controllers-not-work/7f1b0df9-1f3c-45e4-980d-e36ccf8bd1af) 
-6. [Bluetooth/Windows 10 and Cakewalk Sonar](https://www.midi.org/forum/4129-bluetooth-windows-10-and-cakewalk-sonar) 
-7. [Circuit Python BLE MIDI On Windows](https://www.electromaker.io/project/view/circuit-python-ble-midi-on-windows)
-8. ["10 Free Garageband Alternatives For Windows (2022)"](https://www.musicianwave.com/free-garageband-alternatives-for-windows/)
+2. [Set-Up MIDIberry with DAW](http://newbodyfresher.linclip.com/how-to-use-with-daw)
+3. ["MIDI Enhancements in Windows 10"](https://blogs.windows.com/windowsdeveloper/2016/09/21/midi-enhancements-in-windows-10/#UoOKIUs36T18pdCP.97)
+4. [MIDI Setup Window](https://docs.cycling74.com/max5/vignettes/core/midi_setup_window.html) 
+5. [MIDI Setup and Usage | Wireless BLE MIDI Robot Xylophone | Adafruit Learning System](https://learn.adafruit.com/wireless-ble-midi-robot-xylophone/midi-setup-and-usage) 
+6. [Forum: MIDI device won't show up in music software](https://xkeyair.com/forum-index/users/martinhines/replies/) 
+7. [Why do Bluetooth LE / BLE Midi Controllers not work in Windows 11 - Microsoft Community](https://answers.microsoft.com/en-us/windows/forum/all/why-do-bluetooth-le-ble-midi-controllers-not-work/7f1b0df9-1f3c-45e4-980d-e36ccf8bd1af) 
+8. [Bluetooth/Windows 10 and Cakewalk Sonar](https://www.midi.org/forum/4129-bluetooth-windows-10-and-cakewalk-sonar) 
+9. [Circuit Python BLE MIDI On Windows](https://www.electromaker.io/project/view/circuit-python-ble-midi-on-windows)
+10. ["10 Free Garageband Alternatives For Windows (2022)"](https://www.musicianwave.com/free-garageband-alternatives-for-windows/)
   
 ## Online SPIKE IDEs
 1. [LEGO Education SPIKE (SPIKE 3.0 / Atlantis)](https://spike3.legoeducation.com/)
