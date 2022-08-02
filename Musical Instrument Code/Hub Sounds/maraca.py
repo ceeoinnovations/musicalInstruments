@@ -1,3 +1,6 @@
+# By Julia Zelevinsky
+# Summer 2022
+# Written for Atlantis in PyView
 import imu
 import time
 import sound
