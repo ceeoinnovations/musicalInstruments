@@ -114,7 +114,7 @@ def get_midi_num_from_frequency(freq):
     
     return int(midi_num) # Cast in case number is a decimal because note() can't take a float
 
-# ---- MAIN FUNCTION -----
+# ----- MAIN FUNCTION -----
 def Violin():
     ble = bluetooth.BLE()
     p = ble_CBR.BLESimplePeripheral(ble, 'MIDI', 'MySPIKE')
