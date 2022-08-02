@@ -1,6 +1,6 @@
 # SPIKE Prime Musical Instruments
 ### By Rose Kitz, Anna Quiros, Julia Zelevinsky, and Samson Bienstock
-*With help from: Rachel Hsin, Soham Gaggenapally, and Gabriel Sessions*
+*With help from: Alan Deutsch, Soham Gaggenapally, Rachel Hsin, and Gabriel Sessions*
 
 <hr>
 
@@ -13,5 +13,5 @@ Check out the appropriate folders to access tutorials and our code!
 
 <hr> 
 
-*This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab
-Summer 2022*
+*This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab* <br>
+*Summer 2022*

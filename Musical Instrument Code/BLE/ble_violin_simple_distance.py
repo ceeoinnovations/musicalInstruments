@@ -39,8 +39,8 @@ lego_color_list = [LEGO_MAGENTA, LEGO_BLUE, LEGO_YELLOW, LEGO_RED]
 # Rightmost color is brick nearest hand on bow = rightmost string looking from hub to end of violin = E5 open string
 
 # Minimum and maximum distances of violin finger board from the distance sensor
-min_distance = 42 # mm
-max_distance = 96 # mm
+min_distance = 42 # [mm]
+max_distance = 96 # [mm]
 
 # Function to package up MIDI information to send over BLE
 def note(cmd,value,volume):
