@@ -4,7 +4,7 @@
 ## CONNECTING SPIKE AS A MIDI DEVICE
 
 #### SET UP FILES
-1. On the device you are using to download code onto your SPIKE hub, go to the [Github repository](https://github.com/ceeoinnovations/musicalInstruments). 
+1. On the device you are using to download code onto your SPIKE hub, access this [Github repository](https://github.com/ceeoinnovations/musicalInstruments/Setting%20Up%20MIDI/BLE%20MIDI/). 
 2. Download the following programs onto your computer:
     1. ble_CBR.py
     2. ble_advertising.py
