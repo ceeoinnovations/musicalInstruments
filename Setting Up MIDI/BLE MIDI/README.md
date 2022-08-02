@@ -125,7 +125,7 @@ There is a template and a folder of useful functions that you can use in the [St
     * `sound.beepPlay()`
 * **Find out modules in Atlantis in PyView**
     * `help('modules')`
-    * `*** `Beware of module names in Atlantis, to avoid naming files and variables by module names (Alan says Python will prioritize the module over a variable or file)
+    * Beware of module names in Atlantis, to avoid naming files and variables by module names (Alan says Python will prioritize the module over a variable or file)
 * **To find out what functions a module has, type into the REPL:**
     * `help(module_name)`
 * ERROR:` AttributeError … BLESimplePerhipheral not found`
