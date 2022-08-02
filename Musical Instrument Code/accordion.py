@@ -1,6 +1,6 @@
 # By Anna Quiros
 # FET Lab Summer 2022
-# Written in the SPIKE Web App
+# Written for Spike 2 in the Spike Web App
 
 from spike import PrimeHub, Speaker, Motor
 
