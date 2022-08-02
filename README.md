@@ -13,5 +13,5 @@ Check out the appropriate folders to access tutorials and our code!
 
 <hr> 
 
-*This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab
-Summer 2022*
+*This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab* <br>
+*Summer 2022*
