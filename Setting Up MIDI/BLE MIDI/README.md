@@ -3,17 +3,19 @@
 
 ## CONNECTING SPIKE AS A MIDI DEVICE
 
-#### SET UP FILES
+#### STEP ONE: SET UP FILES
 1. On the device you are using to download code onto your SPIKE hub, access this [Github repository](https://github.com/ceeoinnovations/musicalInstruments/Setting%20Up%20MIDI/BLE%20MIDI/). 
 2. Download the following programs onto your computer:
-    1. ble_CBR.py
-    2. ble_advertising.py
-    3. Your instrument code to run (e.g. ble_piano.py, or a modified version of ble_atlantis_template.py)
+    a. ble_CBR.py
+    b. ble_advertising.py
+    c. Your instrument code to run (e.g. ble_piano.py, or a modified version of ble_atlantis_template.py)
 3. Move all of these downloaded files into the LabVIEW folder on your computer (so that they are visible in the file tree once LabVIEW opens).
-    4. This is a folder that is automatically created when you download LabVIEW and stores all of your LabVIEW projects and files.
+    a. This is a folder that is automatically created when you download LabVIEW and stores all of your LabVIEW projects and files.
 4. Connect to GarageBand.
 
-#### SET UP GARAGEBAND
+<hr>
+
+#### STEP TWO: SET UP GARAGEBAND
 FOR MAC:
 
 1. Open GarageBand on Mac:
@@ -28,35 +30,38 @@ _(you can follow the same instructions for both iPhone and iPad!)_
 
 1. Open GarageBand on iPhone/iPad:
     1. If you haven’t already started a new project, add a new project:
-        1. Select which instrument ‘category’ you’d like for your instrument. If you don’t see one close to your desired instrument, select “Keyboard,” and there will be many non-keyboard instrument options that you simply play with the keyboard keys.
+        a. Select which instrument ‘category’ you’d like for your instrument. If you don’t see one close to your desired instrument, select “Keyboard,” and there will be many non-keyboard instrument options that you simply play with the keyboard keys.
     2. To change the instrument you wish to play through your program:
-        2. **iPhone:** Select the down arrow in the upper left of the screen.
-        3. **iPad:** Select the instrument image in the middle of the screen.
-        4. Click on the current instrument to see other options.
+        a. **iPhone:** Select the down arrow in the upper left of the screen.
+        b. **iPad:** Select the instrument image in the middle of the screen.
+        c. Click on the current instrument to see other options.
     3. Ensure your volume is on (so you can hear the program play later on).
+    
+<hr>
 
-#### CONNECT SPIKE HUB WITH PYVIEW AND START RUNNING CODE
+#### STEP THREE: CONNECT SPIKE HUB WITH PYVIEW AND START RUNNING CODE
 
 1. Turn on SPIKE Prime. 
 2. Connect SPIKE Prime to your computer via USB cord (to later download programs onto the hub). 
 3. Open PyView on your code-running computer, and find ble_advertising.py, ble_CBR.py, and ble_piano.py in your file tree on the left of your screen.
-    1. If the files don’t show up, go to the toolbar, select “Tools” > “Reload File Tree.”
+    a. If the files don’t show up, go to the toolbar, select “Tools” > “Reload File Tree.”
 4. Click on ‘SPIKE Browser’ in the upper left corner. 
-    2. If ble_advertising.py and ble_CBR.py are not already downloaded onto the hub, go back to the main PyView screen, select and download each program onto the hub.
+    a. If ble_advertising.py and ble_CBR.py are not already downloaded onto the hub, go back to the main PyView screen, select and download each program onto the hub.
 5. Run ble_piano.py (or the instrument code that you want to run). The console should say “Starting advertising,” (the SPIKE is now advertising itself to the world as a Bluetooth peripheral device).
 
+<hr>
 
-#### CONNECT SPIKE TO YOUR MIDI DEVICE
+#### STEP FOUR: CONNECT SPIKE TO YOUR MIDI DEVICE
 
 For MAC:
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Find and open the Audio MIDI App (it’s built in on Mac laptops). 
 3. In the Audio MIDI App. 
-    1. In the toolbar, select “Window” > “Show MIDI Studio.”
-    2. Hit the Bluetooth button on the top bar of the window. 
-    3. A “Bluetooth Configuration” window should appear. 
-    4. Connect to your SPIKE Prime. 
+    a. In the toolbar, select “Window” > “Show MIDI Studio.”
+    b. Hit the Bluetooth button on the top bar of the window. 
+    c. A “Bluetooth Configuration” window should appear. 
+    d. Connect to your SPIKE Prime. 
 4. Back in PyView, you should see in the console something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
 5. You should see a pop-up in the upper-right corner of your screen saying “Changed number of MIDI inputs, 1 input is available” (this means that GarageBand is now connected to the SPIKE). 
 
@@ -64,26 +69,32 @@ For MAC:
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Go to GarageBand:
-    1. Click the settings icon in the upper right corner. 
-    2. Go to Advanced (It may be under “Song Settings”)
-    3. Click “Bluetooth MIDI Devices”. 
-    4. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”. 
-    5. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).
-    6. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad. 
+    a. Click the settings icon in the upper right corner. 
+    b. Go to Advanced (It may be under “Song Settings”)
+    c. Click “Bluetooth MIDI Devices”. 
+    d. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”. 
+    e. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).
+    f. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad. 
 3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
+
+<hr>
 
 #### FINAL STEPS
 
-5. Your program should play! (You should hear audio through GarageBand). 
-6. Click on “Abort” in PyView to end the program. 
-    5. To run the program again, make sure you DISCONNECT from the SPIKE in the MIDI app first. 
-    6. After hitting “Disconnect”, hit “Abort” in PyView again. 
-    7. You should now be able to run the program in the REPL again. 
-7. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”
+1. Your program should play! (You should hear audio through GarageBand). 
+2. Click on “Abort” in PyView to end the program. 
+    a. To run the program again, make sure you DISCONNECT from the SPIKE in the MIDI app first. 
+    b. After hitting “Disconnect”, hit “Abort” in PyView again. 
+    c. You should now be able to run the program in the REPL again. 
+3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”
+
+<br> <br>
 
 ## Modifying the template
 
 There is a template and a folder of useful functions that you can use in the [Starter Code](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code) folder. 
+
+<br> <br>
 
 ## Tips & Tricks
 
