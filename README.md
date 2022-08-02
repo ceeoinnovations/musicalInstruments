@@ -12,5 +12,6 @@ There are three main ways that we explored making music with the SPIKE Prime.
 Check out the appropriate folders to access tutorials and our code! 
 
 <hr> 
-This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab
-Summer 2022
+
+*This content was developed under Chris Rogers in the Tufts Center for Engineering Education Future Educational Technologies Lab
+Summer 2022*
