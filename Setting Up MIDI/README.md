@@ -1,8 +1,6 @@
 # Setting up MIDI  
 Choose either USB MIDI or BLE MIDI based on the following criteria
-
 <br>
-
 ### USB MIDI Device list:
 
 * Required:
@@ -11,9 +9,7 @@ Choose either USB MIDI or BLE MIDI based on the following criteria
 * Choose one to run code & output the musical sounds:
     * Mac (running MacOS, with GarageBand)
     * PC (running Windows, with MIDIBerry and loopMIDI)
-
 <br>
-
 ### BLE MIDI Device list:
 
 * Required:
