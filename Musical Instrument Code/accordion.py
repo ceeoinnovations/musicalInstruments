@@ -1,4 +1,7 @@
-#written in the SPIKE Web App
+# By Anna Quiros
+# FET Lab Summer 2022
+# Written in the SPIKE Web App
+
 from spike import PrimeHub, Speaker, Motor
 
 hub = PrimeHub()
