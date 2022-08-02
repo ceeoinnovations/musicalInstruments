@@ -18,7 +18,7 @@ Choose either USB MIDI or BLE MIDI based on the following criteria:
     * SPIKE Prime hub
 * Choose one to run code:
     * Mac (running MacOS)
-    * *(still in the works...) PC (running Windows)*
+    * PC (running Windows)
 * Choose a music-outputting device:
     * Mac (with GarageBand)
     * iPad (with GarageBand)
