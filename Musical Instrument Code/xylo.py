@@ -1,3 +1,7 @@
+# By Soham Gaggenapally
+# FET Lab Summer 2022
+# Written for Spike 2 in the Spike Web App
+
 from time import sleep as sl
 from hub import sound as s
 from hub import button as b
