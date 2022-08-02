@@ -2,11 +2,11 @@
 
 
 #### STEP ONE: SET UP FILES
-1. On the device you are using to download code onto your SPIKE hub, access this [Github repository](https://github.com/ceeoinnovations/musicalInstruments/Setting%20Up%20MIDI/BLE%20MIDI/). 
+1. On the device you are using to download code onto your SPIKE hub, access this [repository](https://github.com/ceeoinnovations/musicalInstruments/Setting%20Up%20MIDI/BLE%20MIDI/). 
 2. Download the following programs onto your computer:
     a. ble_CBR.py
     b. ble_advertising.py
-    c. Your instrument code to run (e.g. ble_piano.py, or a modified version of ble_atlantis_template.py)
+    c. Your instrument code to run (e.g. [ble_piano.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_piano.py), or a modified version of [ble_atlantis_template.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_basic_template.py))
 3. Move all of these downloaded files into the LabVIEW folder on your computer (so that they are visible in the file tree once LabVIEW opens).
     a. This is a folder that is automatically created when you download LabVIEW and stores all of your LabVIEW projects and files.
 4. Connect to GarageBand.
