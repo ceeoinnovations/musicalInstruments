@@ -14,6 +14,10 @@ Choose either USB MIDI or BLE MIDI based on the following criteria:
 
 ### BLE MIDI Device List:
 
+**Have a Mac?** You only need the hub and your computer, since you can run the code AND GarageBand on your Mac
+
+**Have a Windows PC?** For the time being, you will need the hub, your PC, and an Apple device (to run GarageBand)
+
 * Required:
     * SPIKE Prime hub
 * Choose one to run code:
@@ -24,7 +28,3 @@ Choose either USB MIDI or BLE MIDI based on the following criteria:
     * iPad (with GarageBand)
     * iPhone (with GarageBand)
     * *(still in the works...) PC (with Cakewalk by Bandlab)*
-
-**Have a Mac?** You only need the hub and your computer, since you can run the code AND GarageBand on your Mac
-
-**Have a Windows PC?** For the time being, you will need the hub, your PC, and an Apple device (to run GarageBand)
