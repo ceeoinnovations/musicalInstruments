@@ -1,3 +1,7 @@
+# By Rachel Hsin
+# FET Lab Summer 2022
+# Written for Atlantis in PyVIEW
+
 import struct
 import ble_CBR
 import bluetooth
