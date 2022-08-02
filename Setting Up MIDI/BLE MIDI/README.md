@@ -66,7 +66,7 @@ FOR MAC:
 4. Back in PyView, you should see in the console something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
 5. You should see a pop-up in the upper-right corner of your screen saying “Changed number of MIDI inputs, 1 input is available” (this means that GarageBand is now connected to the SPIKE). 
 
-**FOR IPHONE/IPAD:**
+FOR IPHONE/IPAD:
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Go to GarageBand:  
