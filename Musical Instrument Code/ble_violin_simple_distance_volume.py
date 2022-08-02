@@ -1,7 +1,3 @@
-# By Rose Kitz
-# FET Lab Summer 2022
-# Written for Atlantis in PyVIEW
-
 import struct
 import ble_CBR
 import bluetooth
@@ -342,6 +338,7 @@ def get_frequency_from_distance_and_string(string, distance):
         
     # TENSION and MASS PER UNIT LENGTH
     # Find T (tension) and M (mass per unit length) from string chosen
+    # Source for typical T and M of violin strings: http://knutsacoustics.com/files/Typical-string-properties.pdf
     tension_and_mass_per_length_by_string_color = [[35.0, 0.00212], [34.3, 0.00092], [48.3, 0.00058], [71.4, 0.00038]]
     tension = 0
     mass_per_length = 0
@@ -402,7 +399,7 @@ def Violin():
 
             current_distance = choose_distance()
             
-            # Play note iff color in the color list is detected AND distance ≠ zero or negative
+            # Play note iff color in the color list is detected AND distance is NOT zero or negative
             if (current_string in lego_color_list) and ((current_distance - min_distance) > 0.0):
                 
                 current_frequency = get_frequency_from_distance_and_string(current_string, current_distance)
