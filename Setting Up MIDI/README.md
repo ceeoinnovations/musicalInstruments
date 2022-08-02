@@ -1,6 +1,9 @@
-# Setting up MIDI: Choose either USB MIDI or BLE MIDI based on the following criteria
+# Setting up MIDI  
+Choose either USB MIDI or BLE MIDI based on the following criteria
 
-### USB MIDI Device list: make a diagram out of this to be clearer
+<br>
+
+### USB MIDI Device list:
 
 * Required:
     * SPIKE Prime hub
@@ -8,6 +11,8 @@
 * Choose one to run code & output the musical sounds:
     * Mac (running MacOS, with GarageBand)
     * PC (running Windows, with MIDIBerry and loopMIDI)
+
+<br>
 
 ### BLE MIDI Device list:
 
