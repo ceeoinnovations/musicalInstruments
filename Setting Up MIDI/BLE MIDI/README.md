@@ -62,6 +62,7 @@ For MAC:
     b. Hit the Bluetooth button on the top bar of the window. 
     c. A “Bluetooth Configuration” window should appear. 
     d. Connect to your SPIKE Prime. 
+![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/spike.gif)
 4. Back in PyView, you should see in the console something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
 5. You should see a pop-up in the upper-right corner of your screen saying “Changed number of MIDI inputs, 1 input is available” (this means that GarageBand is now connected to the SPIKE). 
 
