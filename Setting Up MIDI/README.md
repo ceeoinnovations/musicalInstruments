@@ -22,7 +22,7 @@ Choose either USB MIDI or BLE MIDI based on the following criteria
 * Choose a music-outputting device:
     * Mac (with GarageBand)
     * iPad (with GarageBand)
-    * [(still in the works…) PC (with Cakewalk by Bandlab)]
+    * *(still in the works…) PC (with Cakewalk by Bandlab)*
 
 _BLE Example:_ If you have a Mac computer, you only need the hub and your computer, since you can run the code AND GarageBand on your Mac
 
