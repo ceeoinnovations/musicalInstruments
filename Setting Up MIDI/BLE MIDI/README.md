@@ -1,7 +1,5 @@
-# Setting up a SPIKE Prime instrument with **BLE **MIDI on various devices
+# Setting up SPIKE Prime as a MIDI instrument over **BLE**
 
-
-## CONNECTING SPIKE AS A MIDI DEVICE
 
 #### STEP ONE: SET UP FILES
 1. On the device you are using to download code onto your SPIKE hub, access this [Github repository](https://github.com/ceeoinnovations/musicalInstruments/Setting%20Up%20MIDI/BLE%20MIDI/). 
