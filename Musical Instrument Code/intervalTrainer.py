@@ -1,6 +1,6 @@
 # By Anna Quiros
 # FET Lab Summer 2022
-# Written in the Spike Web App for Spike 2
+# Written for Spike 2 in the Spike Web App 
 
 from spike import PrimeHub, LightMatrix, Button, StatusLight, ForceSensor, Speaker, Motor
 from spike.control import wait_for_seconds
