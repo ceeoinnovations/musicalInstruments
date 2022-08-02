@@ -30,12 +30,12 @@ _(you can follow the same instructions for both iPhone and iPad!)_
 
 1. Open GarageBand on iPhone/iPad:
     1. If you haven’t already started a new project, add a new project:  
-        a. Select which instrument ‘category’ you’d like for your instrument. If you don’t see one close to your desired instrument, select “Keyboard,” and there will be many non-keyboard instrument options that you simply play with the keyboard keys.
+        a. Select which instrument ‘category’ you’d like for your instrument. If you don’t see one close to your desired instrument, select “Keyboard,” and there will be many non-keyboard instrument options that you simply play with the keyboard keys.  
     2. To change the instrument you wish to play through your program:  
         a. **iPhone:** Select the down arrow in the upper left of the screen.  
         b. **iPad:** Select the instrument image in the middle of the screen.  
         c. Click on the current instrument to see other options.  
-    3. Ensure your volume is on (so you can hear the program play later on).
+    3. Ensure your volume is on (so you can hear the program play later on).  
     
 <hr>
 
@@ -57,7 +57,7 @@ For MAC:
 
 1. If Bluetooth is not already on, turn it on in settings. 
 2. Find and open the Audio MIDI App (it’s built in on Mac laptops). 
-3. In the Audio MIDI App. 
+3. In the Audio MIDI App:  
     a. In the toolbar, select “Window” > “Show MIDI Studio.”  
     b. Hit the Bluetooth button on the top bar of the window.  
     c. A “Bluetooth Configuration” window should appear.  
@@ -69,25 +69,25 @@ For MAC:
 **For iPhone/iPad:**
 
 1. If Bluetooth is not already on, turn it on in settings. 
-2. Go to GarageBand:
-    a. Click the settings icon in the upper right corner. 
-    b. Go to Advanced (It may be under “Song Settings”)  
-    c. Click “Bluetooth MIDI Devices”. 
-    d. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”. 
-    e. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).  
-    f. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad.  
-3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected). 
+2. Go to GarageBand:  
+    a. Click the settings icon in the upper right corner.  
+    b. Go to Advanced (It may be under “Song Settings”)   
+    c. Click “Bluetooth MIDI Devices”.  
+    d. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”.  
+    e. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).   
+    f. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad.   
+3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected).  
 
 <hr>
 
 #### FINAL STEPS
 
-1. Your program should play! (You should hear audio through GarageBand). 
-2. Click on “Abort” in PyView to end the program. 
+1. Your program should play! (You should hear audio through GarageBand).  
+2. Click on “Abort” in PyView to end the program.  
     a. To run the program again, make sure you DISCONNECT from the SPIKE in the MIDI app first.   
     b. After hitting “Disconnect”, hit “Abort” in PyView again.  
-    c. You should now be able to run the program in the REPL again. 
-3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”  
+    c. You should now be able to run the program in the REPL again.  
+3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”   
 
 <br> <br>
 
