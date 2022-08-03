@@ -37,6 +37,10 @@ _(you can follow the same instructions for both iPhone and iPad!)_
         c. Click on the current instrument to see other options.  
     3. Ensure your volume is on (so you can hear the program play later on).  
     
+    iPhone  
+    ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/iphone%20garage%20band.gif)  
+    iPad  
+    ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/ipad%20garage%20band.gif)  
 <hr>
 
 #### STEP THREE: CONNECT SPIKE HUB WITH PYVIEW AND START RUNNING CODE
@@ -76,8 +80,9 @@ FOR IPHONE/IPAD:
     d. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”.  
     e. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).   
     f. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad.   
-3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected).  
+3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected).   
 
+ ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/PyView%20Connection%20for%20both.gif)
 <hr>
 
 #### FINAL STEPS
@@ -87,15 +92,19 @@ FOR IPHONE/IPAD:
     a. To run the program again, make sure you DISCONNECT from the SPIKE in the MIDI app first.   
     b. After hitting “Disconnect”, hit “Abort” in PyView again.  
     c. You should now be able to run the program in the REPL again.  
-3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”   
+3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”  
 
-<br> <br>
+## Alternative: PyREPL
+If you don't have LabView liscense or don't have it installed, you can complete these directions using a Python REPL. In this section [Web PyREPL](https://pyrepl.web.app) will be used, but feel free to use your preferred REPL environment. You should be able to see the same console output as the normal directions.
+
+1. Upload ble_CBR.py and ble_advertising.py to the hub. In Web PyREPL, paste the contents of each file into a tab. For each file, click on the more options button (purple w/ dots), and select Save to Slot. Enter the file which you're uploading (ble_CBR.py or ble_advertising.py) and select save.
+2. Run files by creating a new tab and executing the code (clicking the blue play button).
 
 ## Modifying the template
 
 There is a template and a folder of useful functions that you can use in the [Starter Code](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code) folder. 
 
-<br> <br>
+<br>
 
 ## Tips & Tricks
 
@@ -125,7 +134,7 @@ There is a template and a folder of useful functions that you can use in the [St
     * `sound.beepPlay()`
 * **Find out modules in Atlantis in PyView**
     * `help('modules')`
-    * `*** `Beware of module names in Atlantis, to avoid naming files and variables by module names (Alan says Python will prioritize the module over a variable or file)
+    * Beware of module names in Atlantis, to avoid naming files and variables by module names (Alan says Python will prioritize the module over a variable or file)
 * **To find out what functions a module has, type into the REPL:**
     * `help(module_name)`
 * ERROR:` AttributeError … BLESimplePerhipheral not found`
