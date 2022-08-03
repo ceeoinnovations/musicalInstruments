@@ -37,6 +37,10 @@ _(you can follow the same instructions for both iPhone and iPad!)_
         c. Click on the current instrument to see other options.  
     3. Ensure your volume is on (so you can hear the program play later on).  
     
+    iPhone
+    ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/iphone%20garage%20band.gif)
+    iPad
+    ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/ipad%20garage%20band.gif)
 <hr>
 
 #### STEP THREE: CONNECT SPIKE HUB WITH PYVIEW AND START RUNNING CODE
