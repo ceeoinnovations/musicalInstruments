@@ -1,3 +1,9 @@
+# By Samson Bienstock
+# FET Lab Summer 2022
+# Written for Atlantis in PyVIEW
+
+# NEEDS ble_melody.py TO RUN !! 
+
 #setup
 
 import time
