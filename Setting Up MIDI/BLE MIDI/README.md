@@ -96,11 +96,18 @@ FOR IPHONE/IPAD:
 
 <br> <br>
 
+
+## Alternative: PyREPL
+If you don't have LabView liscense or don't have it installed, you can complete these directions using a Python REPL. In this section [Web PyREPL](https://pyrepl.web.app) will be used, but feel free to use your preferred REPL environment. You should be able to see the same console output as the normal directions.
+
+1. Upload ble_CBR.py and ble_advertising.py to the hub. In Web PyREPL, paste the contents of each file into a tab. For each file, click on the more options button (purple w/ dots), and select Save to Slot. Enter the file which you're uploading (ble_CBR.py or ble_advertising.py) and select save.
+2. Run files by creating a new tab and executing the code (clicking the blue play button).
+
 ## Modifying the template
 
 There is a template and a folder of useful functions that you can use in the [Starter Code](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code) folder. 
 
-<br> <br>
+<br>
 
 ## Tips & Tricks
 
