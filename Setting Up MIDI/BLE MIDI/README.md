@@ -92,10 +92,7 @@ FOR IPHONE/IPAD:
     a. To run the program again, make sure you DISCONNECT from the SPIKE in the MIDI app first.   
     b. After hitting “Disconnect”, hit “Abort” in PyView again.  
     c. You should now be able to run the program in the REPL again.  
-3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”   
-
-<br> <br>
-
+3. FOR MAC: If your hub disconnects from GarageBand at any point (or you turn it off on purpose), you’ll see a pop-up in the upper-right corner of your screen saying “Change number of MIDI inputs, 0 inputs are available.”  
 
 ## Alternative: PyREPL
 If you don't have LabView liscense or don't have it installed, you can complete these directions using a Python REPL. In this section [Web PyREPL](https://pyrepl.web.app) will be used, but feel free to use your preferred REPL environment. You should be able to see the same console output as the normal directions.
