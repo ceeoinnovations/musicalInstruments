@@ -29,7 +29,7 @@ FOR IPHONE / IPAD:
 _(you can follow the same instructions for both iPhone and iPad!)_
 
 1. Open GarageBand on iPhone/iPad:
-    1. If you haven’t already started a new project, add a new project:  
+    1. If you haven’t already started a new project, select the "+" icon in the upper right of the screen to add a new project:  
         a. Select which instrument ‘category’ you’d like for your instrument. If you don’t see one close to your desired instrument, select “Keyboard,” and there will be many non-keyboard instrument options that you simply play with the keyboard keys.  
     2. To change the instrument you wish to play through your program:  
         a. **iPhone:** Select the down arrow in the upper left of the screen.  
