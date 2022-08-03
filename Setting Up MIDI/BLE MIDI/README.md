@@ -80,8 +80,9 @@ FOR IPHONE/IPAD:
     d. If there is a pop-up saying ‘“GarageBand” Would Like to Use Bluetooth,’ select “OK”.  
     e. The hub should show up as an option as something like “MySPIKE”. If multiple options are available and you have connected to a hub previously on GarageBand, any hub you have previously connected to should have its sub-text of “Input/Output” show up as white (rather than gray-colored).   
     f. Click on the name “MySPIKE” to connect the hub to the iPhone/iPad.   
-3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected).  
+3. Back in PyView, the console should say something like “New connection 1025” (and you may see a few strange hex codes, which are just reporting the kind of MIDI device connected).   
 
+ ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/PyView%20Connection%20for%20both.gif)
 <hr>
 
 #### FINAL STEPS
