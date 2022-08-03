@@ -1,5 +1,9 @@
+# By Samson Bienstock
+# FET Lab Summer 2022
+# Written for Spike 2 in the Spike Web App
+
 #Play function
-#SAMSON BIENSTOCK inspired by CHRIS ROGERS
+
 def NoteSequencer() :
     #start program 
     print("starting in 3....2.....1.....")
