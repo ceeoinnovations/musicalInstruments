@@ -1,3 +1,7 @@
+# By Julia Zelevinsky and Anna Quiros
+# FET Lab Summer 2022
+# Written for Atlantis on PyVIEW
+
 import struct
 import ble_CBR
 import bluetooth
@@ -77,12 +81,12 @@ def Drumkit():
 
             if drum != 0:
                 p.send(note(NoteOn,drum,MaxVol))
-                time.sleep(0.1)
+                time.sleep(0.04)
                 p.send(note(NoteOff,drum,MinVol))
-                time.sleep(0.1)
+                time.sleep(0.04)
                 drum = 0
          
-            time.sleep(0.1)
+            time.sleep(0.04)
         else:
             if was_connected:
                 break
