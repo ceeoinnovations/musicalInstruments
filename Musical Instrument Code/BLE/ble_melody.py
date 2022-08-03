@@ -1,10 +1,16 @@
+# By Samson Bienstock
+# FET Lab Summer 2022
+# Written for Atlantis in PyVIEW
+
+# NEEDS ble_legomusic4.py TO RUN !! 
+
 #BEGINNING OF PROGRAM
 
 #PART 1: ---------- SETUP
 #import button
 #import TESTALLCHORDS
 #done = lambda : button.button_isPressed(button.BUTTON_RIGHT)[0]
-import LEGOMUSIC4, motor, force_sensor, color_sensor, struct, ble_CBR, bluetooth, time, port
+import ble_legomusic4, motor, force_sensor, color_sensor, struct, ble_CBR, bluetooth, time, port
 play = 60
 NoteOn = 0x90
 NoteOff = 0x80
