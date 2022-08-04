@@ -10,6 +10,7 @@ Choose either USB MIDI or BLE MIDI based on the following criteria:
 * Choose one to run code & output the musical sounds:
     * Mac (running MacOS, with GarageBand)
     * PC (running Windows, with MIDIBerry)
+    
 *Note: We have written the USB MIDI set-up tutorial specifically for PC running Windows, though the steps generally apply for Mac as well (using GarageBand instead of a Windows alternative).*
 
 
