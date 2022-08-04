@@ -5,7 +5,7 @@
 # Using MIDI USB Pico Breadboard set-up and MIDIBerry as a DAW (on a Windows PC, to play real instrument sounds through)
 # See README.md for tutorial on how to set up MIDI over USB
 
-# Program to play MIDI sounds on a slide instrument (written for Mini Trombone build - https://www.ceeoinnovations.org/a-in-steam/?project=Mini%20Trombone)
+# Program to play MIDI sounds on a slide instrument
 # Uses USB to enable MIDI sounds through a Windows PC (MIDI BLE on Windows currently in progress)
 # Program currently plays a C major scale, with one note associated with one of the 7 slide positions (no partials)
 
