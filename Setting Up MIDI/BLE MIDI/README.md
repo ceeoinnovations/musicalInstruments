@@ -9,7 +9,6 @@
     c. Your instrument code to run (e.g. [ble_piano.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_piano.py), or a modified version of [ble_basic_template.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_basic_template.py))  
 3. Move all of these downloaded files into the LabVIEW folder on your computer (so that they are visible in the file tree once LabVIEW opens).  
     a. This is a folder that is automatically created when you download LabVIEW and stores all of your LabVIEW projects and files.
-4. Connect to GarageBand.
 
 <hr>
 
@@ -102,7 +101,7 @@ If you don't have LabView liscense or don't have it installed, you can complete 
 
 ## Modifying the template
 
-There is a template and a folder of useful functions that you can use in the [Starter Code](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code) folder. 
+There is a folder of useful functions that you can use in the [Musical Instrument Code](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Musical%20Instrument%20Code/Useful%20Functions%20-%20SPIKE%203.0%20%5Bcolor%20%26%20distance%20calibration%2C%20and%20MIDI%5D) folder.  
 
 <br>
 
