@@ -2,8 +2,12 @@
 # FET Lab Summer 2022
 # Written for SPIKE 2.0 in PyVIEW
 
-# Using MIDI USB Pico Breadboard set-up and MIDIBerry as a DAW (to play real instrument sounds through)
+# Using MIDI USB Pico Breadboard set-up and MIDIBerry as a DAW (on a Windows PC, to play real instrument sounds through)
 # See README.md for tutorial on how to set up MIDI over USB
+
+# Program to play MIDI sounds on a slide instrument (written for Mini Trombone build - https://www.ceeoinnovations.org/a-in-steam/?project=Mini%20Trombone)
+# Uses USB to enable MIDI sounds through a Windows PC (MIDI BLE on Windows currently in progress)
+# Program currently plays a C major scale, with one note associated with one of the 7 slide positions (no partials)
 
 import hub, utime
 import machine
