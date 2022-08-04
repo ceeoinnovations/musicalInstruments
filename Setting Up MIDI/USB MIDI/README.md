@@ -7,7 +7,7 @@
 1. From the Pico breadboard setup:
 	1. Take the clear SPIKE connector end of the black 6-wire cord and plug it into a SPIKE hub port.
 	2. Take the USB-C connector end of the MIDI cable and plug it into your PC.
-	3. Make sure that your wire connections on the breadboard match the image below before moving on.
+	3. Make sure that your wire connections on the breadboard match the image below before moving on (it is correct that the blue wire should not be connected to anything on the breadboard, we don't need that wire for now).
 ![](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/assets/MIDI%20USB%20SetUp.jpg)
 <hr>
 
