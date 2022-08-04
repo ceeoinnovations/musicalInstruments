@@ -11,7 +11,7 @@ There are three main ways that we explored making music with the SPIKE Prime.
 
 Check out the appropriate folders to access tutorials and our code!
 
-(If you're looking for some useful functions related to SPIKE sensors and MIDI for instruments, check out [this folder](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Musical%20Instrument%20Code/Useful%20Functions%20-%20SPIKE%203.0%20%5Bcolor%20%26%20distance%20calibration%2C%20and%20MIDI%5D)!
+(If you're looking for some useful functions related to SPIKE sensors and MIDI for instruments, check out [this folder](https://github.com/ceeoinnovations/musicalInstruments/tree/main/Musical%20Instrument%20Code/Useful%20Functions%20-%20SPIKE%203.0%20%5Bcolor%20%26%20distance%20calibration%2C%20and%20MIDI%5D)!)
 
 <hr> 
 
