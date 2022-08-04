@@ -9,7 +9,7 @@ Choose either USB MIDI or BLE MIDI based on the following criteria:
     * Pico Breadboard setup (with two MIDI cables)
 * Choose one to run code & output the musical sounds:
     * Mac (running MacOS, with GarageBand)
-    * PC (running Windows, with MIDIBerry and loopMIDI)
+    * PC (running Windows, with MIDIBerry)
 
 
 ### BLE MIDI Device List:
