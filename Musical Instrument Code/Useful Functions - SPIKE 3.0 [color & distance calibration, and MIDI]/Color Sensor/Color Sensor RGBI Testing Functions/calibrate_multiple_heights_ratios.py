@@ -21,7 +21,7 @@
 lego_color_list_as_str = ['LEGO_MAGENTA', 'LEGO_BLUE', 'LEGO_YELLOW', 'LEGO_RED']
 # ------------------------
 
-def calibrate_multiple_times_to_compare_heights_for_ratios():
+def calibrate_multiple_heights_ratios():
 
     num_strings = len(lego_color_list_as_str)
     
