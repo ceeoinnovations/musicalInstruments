@@ -1,6 +1,6 @@
 # SPIKE Prime Musical Instruments
 ### By Rose Kitz, Anna Quiros, Julia Zelevinsky, and Samson Bienstock
-*With help from: Alan Deutsch, Soham Gaggenapally, Rachel Hsin, and Gabriel Sessions*
+*With help from: Fletcher Boyd, Alan Deutsch, Soham Gaggenapally, Rachel Hsin, and Gabriel Sessions*
 
 <hr>
 
