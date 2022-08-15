@@ -46,11 +46,11 @@ _(you can follow the same instructions for both iPhone and iPad!)_
 
 1. Turn on SPIKE Prime. 
 2. Connect SPIKE Prime to your computer via USB cord (to later download programs onto the hub). 
-3. Open PyView on your code-running computer, and find ble_advertising.py, ble_CBR.py, and ble_piano.py in your file tree on the left of your screen.  
+3. Open PyView on your code-running computer, and find [ble_advertising.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/ble_advertising.py), [ble_CBR.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/ble_CBR.py), and [ble_piano.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_piano.py) in your file tree on the left of your screen.  
     a. If the files don’t show up, go to the toolbar, select “Tools” > “Reload File Tree.”
 4. Click on ‘SPIKE Browser’ in the upper left corner.  
-    a. If ble_advertising.py and ble_CBR.py are not already downloaded onto the hub, go back to the main PyView screen, select and download each program onto the hub.  
-5. Run ble_piano.py (or the instrument code that you want to run). The console should say “Starting advertising,” (the SPIKE is now advertising itself to the world as a Bluetooth peripheral device).
+    a. If [ble_advertising.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/ble_advertising.py) and [ble_CBR.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/ble_CBR.py) are not already downloaded onto the hub, go back to the main PyView screen, select and download each program onto the hub.  
+5. Run [ble_piano.py](https://github.com/ceeoinnovations/musicalInstruments/blob/main/Setting%20Up%20MIDI/BLE%20MIDI/Starter%20Code/ble_piano.py) (or the instrument code that you want to run). The console should say “Starting advertising,” (the SPIKE is now advertising itself to the world as a Bluetooth peripheral device).
 
 <hr>
 
